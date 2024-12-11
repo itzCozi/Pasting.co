@@ -9,28 +9,21 @@
 
 <PageLayout>
   <h1 class="text-3xl text-type-emphasized mb-4 flex gap-3 text-center items-center justify-center font-semibold">
-    About
     <a
       href="/"
       title="Home"
-      class="hover:bg-transparent">
-      <img
-        src="/icon.png"
-        loading="lazy"
-        alt="Icon"
-        class="h-14 w-auto hover:scale-105 duration-200 ease-in-out cursor-pointer" />
+      class="text-type-emphasized hover:text-type-emphasized hover:trasnparent hover:bg-transparent">
+      About [ManJar-O]
     </a>
   </h1>
   <Paragraph className="mt-3 mb-2">
-    365 Radio is a collection of "radio stations" that stream and post mostly on YouTube. These channels mostly consist of DJ sets and other related content. Some of these have a strange twist, like
-    DJing in the back of a kitchen, in a bathroom, or in an elevator. Only the best promoters/radio stations are included in this list. We love feedback, so if you have any suggestions, please let us
-    know.
+    ManJar-O is a passionate 16-year-old software developer and bedroom DJ hailing from Charlotte, North Carolina. With a strong foundation in web development, ManJar-O is now expanding his creative mediums by joining the world of music production and mixing. His journey is fueled by a relentless drive to blend technology with a new artistic expression.
   </Paragraph>
   <BigButton
     title="Email"
     onClick={() => window.open("mailto:dev@wyzie.ru")}
     className="w-full py-2">
-    Email Us
+    Email Me
   </BigButton>
   <Divider />
   <div class="flex justify-between items-center">
