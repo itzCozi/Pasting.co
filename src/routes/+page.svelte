@@ -27,7 +27,7 @@
       text="YouTube" />
   </div>
 
-  <div class="flex flex-col gap-2">
+  <div class="flex flex-row gap-2">
     <BigButton
       title="Email"
       onClick={() => window.open("mailto:dev@wyzie.ru")}
@@ -38,7 +38,7 @@
     <BigButton
       title="Phone number"
       onClick={() => window.open("tel:9802979605")}
-      className="w-full py-2 border-x border-b border-mono-divider">
+      className="w-full py-2">
       (980)-297-9605
     </BigButton>
   </div>
