@@ -1,3 +1,3 @@
-# 365 Radio
+# [ManJar-O]
 
-Cultured music with a great simple UI for anyone to take.
+My DJ portfolio website. Built with sveltekit and tailwindcss.

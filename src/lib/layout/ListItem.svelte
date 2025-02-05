@@ -11,6 +11,6 @@
 <li class={`flex flex-row gap-2 ${className}`}>
   <a
     {href}
-    class="w-full"
+    class="w-full text-sm"
     target="_blank">{text}</a>
 </li>
