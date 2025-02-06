@@ -11,9 +11,6 @@ importers:
       cssnano:
         specifier: ^7.0.6
         version: 7.0.6(postcss@8.5.1)
-      lucide-svelte:
-        specifier: ^0.447.0
-        version: 0.447.0(svelte@5.19.8)
       vite-plugin-compression:
         specifier: ^0.5.1
         version: 0.5.1(vite@6.1.0(jiti@1.21.7)(yaml@2.7.0))
@@ -755,11 +752,6 @@ packages:
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
-
-  lucide-svelte@0.447.0:
-    resolution: {integrity: sha512-DDCVy79q9H1IAGmrbGDG4GZmCZK+5elK3Fxzu0RzbHKr2Khg7EMc8S6C12bzWcnfW263raqo3grthEjB5gxAjw==}
-    peerDependencies:
-      svelte: ^3 || ^4 || ^5.0.0-next.42
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -1910,10 +1902,6 @@ snapshots:
   lodash.uniq@4.5.0: {}
 
   lru-cache@10.4.3: {}
-
-  lucide-svelte@0.447.0(svelte@5.19.8):
-    dependencies:
-      svelte: 5.19.8
 
   magic-string@0.30.17:
     dependencies:

@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "cssnano": "^7.0.6",
-    "lucide-svelte": "^0.447.0",
     "vite-plugin-compression": "^0.5.1"
   }
 }
