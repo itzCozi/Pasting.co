@@ -30,16 +30,9 @@ body {
   caret-color: #e0e0e0;
 }
 
-ul li::before {
-  content: "*";
-  color: #cacaca; /* Dimmed */
-}
 a {
   color: #4493f8;
   text-decoration: none;
-  transition:
-    background-color 200ms,
-    color 200ms;
 }
 
 a:hover {

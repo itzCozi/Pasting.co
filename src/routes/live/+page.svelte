@@ -4,13 +4,14 @@
   import Button from "$lib/buttons/Button.svelte";
   import Divider from "$lib/type/Divider.svelte";
   import AccentButton from "$lib/buttons/AccentButton.svelte";
+  import Link from "$lib/type/Link.svelte";
 </script>
 
 <PageLayout>
   <h1 class="text-3xl text-type-emphasized mb-4 flex gap-3 text-center items-center justify-center font-semibold">[Lives]</h1>
 
   <Paragraph className="mt-3 mb-2">
-    I sometimes livestream my practice sessions and shows along with other miscellaneous content using <a href="https://obsproject.com/">OBS Studio</a>.
+    I sometimes livestream my practice sessions and shows along with other miscellaneous content using <Link href="https://obsproject.com/">OBS Studio</Link>.
   </Paragraph>
 
   <div class="flex flex-col gap-2">
