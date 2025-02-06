@@ -26,9 +26,10 @@ module.exports = {
           accentLight2: "#3a3a3a",
         },
         type: {
-          primary: "#c0c0c0",
+          primary: "#d0d0d0",
           emphasized: "#e0e0e0",
           dimmed: "#cacaca",
+          black: "#000000",
           footer: "#505050",
         },
       },

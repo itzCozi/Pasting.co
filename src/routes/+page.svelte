@@ -15,7 +15,7 @@
     his creative mediums by joining the world of music production and mixing. His journey is fueled by a relentless drive to blend technology with a new minimal artistic expression.
   </Paragraph>
 
-  <div class="border border-mono-divider mb-4 p-1">
+  <div class="border border-mono-divider mb-4 p-2">
     <ListItem
       href="https://soundcloud.com/manjar-o"
       text="SoundCloud" />
@@ -44,8 +44,12 @@
   </div>
 
   <Divider />
-
-  <div class="flex justify-end items-center">
+  <div class="flex justify-between items-center">
+    <Button
+      title="Livestreams"
+      href="/live">
+      Livestreams
+    </Button>
     <Button
       title="Source code"
       href="https://github.com/itzcozi/manjar-o">
