@@ -5,55 +5,46 @@
   import Button from "$lib/buttons/Button.svelte";
   import Divider from "$lib/type/Divider.svelte";
   import ListItem from "$lib/layout/ListItem.svelte";
+  import Input from "$lib/type/Input.svelte";
+  import TextArea from "$lib/type/TextArea.svelte";
+  import Checkbox from "$lib/buttons/Checkbox.svelte";
+  import AccentButton from "$lib/buttons/AccentButton.svelte";
 </script>
 
 <PageLayout>
-  <h1 class="text-3xl text-type-emphasized mb-4 flex gap-3 text-center items-center justify-center font-semibold">[ManJar-O]</h1>
+  <h1 class="text-3xl text-type-emphasized mb-4 flex gap-3 text-center items-center justify-center font-semibold">Pasting.co</h1>
 
-  <Paragraph className="mt-3 mb-2">
-    ManJar-O (Cooper Ransom) is a passionate 16-year-old software developer and bedroom DJ hailing from Charlotte, North Carolina. With a strong foundation in web development, Cooper is now expanding
-    his creative mediums by joining the world of music production and mixing. His journey is fueled by a relentless drive to blend technology with a new minimal artistic expression.
-  </Paragraph>
-
-  <div class="border border-mono-divider mb-4 p-2">
-    <ListItem
-      href="https://soundcloud.com/manjar-o"
-      text="SoundCloud" />
-    <ListItem
-      href="https://hearthis.at/manjar-o"
-      text="HearThis.at" />
-    <ListItem
-      href="https://www.youtube.com/@manjar-o"
-      text="YouTube" />
-  </div>
+  <TextArea className="w-full h-32" placeholder="Type something here..." />
 
   <div class="flex flex-row gap-2">
-    <BigButton
-      title="Email"
-      onClick={() => window.open("mailto:dev@wyzie.ru")}
-      className="w-full py-2">
-      dev@wyzie.ru
-    </BigButton>
+    <Input
+      title="Paste URL"
+      placeholder="Custom URL"
+      className="w-full py-2" />
+    <Input
+      title="Edit Password"
+      placeholder="Edit Password"
+      className="w-full py-2" />
 
-    <BigButton
-      title="Phone number"
-      onClick={() => window.open("tel:9802979605")}
-      className="w-full py-2">
-      (980)-297-9605
-    </BigButton>
+    <!--
+      <div>
+        Here we add hella icons to add onClick events to so like burn after read, password protected
+      </div>
+    -->
   </div>
 
   <Divider />
   <div class="flex justify-between items-center">
-    <Button
+    <AccentButton
+      className="hover:bg-[#f44646] hover:text-white"
       title="Livestreams"
       href="/live">
-      Livestreams
-    </Button>
-    <Button
+      Delete
+    </AccentButton>
+    <AccentButton
       title="Source code"
       href="https://github.com/itzcozi/manjar-o">
-      Source code
-    </Button>
+      Publish
+    </AccentButton>
   </div>
 </PageLayout>
